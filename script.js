@@ -40,7 +40,7 @@ function calculateAge(){
     result.innerHTML = 'you are <span> ${y1} </span> years, <span>${m3}</span> months and <span>${d3}</span> days old';
     console.log(y3,m3,d3);
     
-
+   //console.log sends value of the calculated variable to the console of the web considering the fact it might not show on the web page
 }
 
  function  getDaysInMonth(year, month){
